@@ -33,7 +33,7 @@ help()
   #TODO: Add help text here
   echo "This script installs kafka cluster on RedHat"
   echo "Parameters:"
-  echo "-v zookeeper version like 3.4.8"
+  echo "-v zookeeper version like 3.4.9"
   echo "-z zookeeper id"
   echo "-i zookeeper Private IP address prefix"
   echo "-c number of zookeeper instances"
@@ -70,7 +70,7 @@ else
 fi
 
 #Script Parameters
-ZOOKEEPER_VERSION="3.4.8"
+ZOOKEEPER_VERSION="3.4.9"
 ZOOKEEPER_ID=1
 ZOOKEEPER_IP_PREFIX="10.0.0.4"
 ZOOKEEPER_INSTANCE_COUNT=1
